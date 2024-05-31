@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <title>Bubble Game</title>
+</head>
+<body>
+    <div class="container">
+        <div class="buttbleGameContainer">
+            <div class="ptop">
+                <div class="elem">
+                    <h2>Hit:</h2>
+                    <div class="pointBox" id="Hit">00</div>
+                </div>
+                <div class="elem">
+                    <h2>Timer:</h2>
+                    <div class="pointBox" id="Timer">00</div>
+                </div>
+                <div class="elem">
+                    <h2>Score:</h2>
+                    <div class="pointBox" id="Score">00</div>
+                </div>
+            </div>
+
+            <div class="pbottom">
+                <div class="timerValueContainer">
+                    <label for="timerValue">Set Time(1 to 10):</label>
+                    <input type="number" min="1" max="10" id="timerValue">
+                    <br>
+                </div>
+                <button class="Btn" id="timerValueBtn" style="background-color: #CAECCA;">Submit</button>
+            </div>
+        </div>
+    </div>
+    <script src="Script.js"></script>
+</body>
+</html>
